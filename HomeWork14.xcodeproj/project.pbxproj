@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6FA757263EA50600D99B02 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FA756263EA50600D99B02 /* CameraViewController.swift */; };
 		6FE22970263C009A00BE6CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2296F263C009A00BE6CD2 /* AppDelegate.swift */; };
 		6FE22972263C009A00BE6CD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE22971263C009A00BE6CD2 /* SceneDelegate.swift */; };
 		6FE22974263C009A00BE6CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE22973263C009A00BE6CD2 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F6FA756263EA50600D99B02 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		6FE2296C263C009A00BE6CD2 /* HomeWork14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE2296F263C009A00BE6CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FE22971263C009A00BE6CD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				6FE22971263C009A00BE6CD2 /* SceneDelegate.swift */,
 				6FE22973263C009A00BE6CD2 /* ViewController.swift */,
 				6FE22975263C009A00BE6CD2 /* Main.storyboard */,
+				6F6FA756263EA50600D99B02 /* CameraViewController.swift */,
 				6FE22986263C02ED00BE6CD2 /* GameViewController.swift */,
 				6FE22992263C183900BE6CD2 /* CollisionCategory.swift */,
 				6FE22985263C012400BE6CD2 /* Assets */,
@@ -180,6 +183,7 @@
 				6FE22974263C009A00BE6CD2 /* ViewController.swift in Sources */,
 				6FE22970263C009A00BE6CD2 /* AppDelegate.swift in Sources */,
 				6FE22972263C009A00BE6CD2 /* SceneDelegate.swift in Sources */,
+				6F6FA757263EA50600D99B02 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

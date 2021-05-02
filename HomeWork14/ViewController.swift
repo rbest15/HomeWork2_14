@@ -12,7 +12,12 @@ class ViewController: UIViewController {
     @IBAction func playPressed(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "gameVC") as! GameViewController
         vc.delegate = self
-        show(vc, sender: nil)
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func cameraPressed(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "cameraVC") as! CameraViewController
+        present(vc, animated: true, completion: nil)
     }
 }
 

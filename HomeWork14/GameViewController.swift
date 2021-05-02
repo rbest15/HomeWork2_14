@@ -24,7 +24,7 @@ class GameViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContact
         uiSetup()
         addNodes(100)
         
-        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { Timer in
+        let _ = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { Timer in
             if self.time > 0 {
                 self.time -= 1
                 self.timeLabel.text = String(self.time)
